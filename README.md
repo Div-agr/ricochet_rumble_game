@@ -19,9 +19,10 @@ Basic pieces:
 ![Wrightsemi](https://github.com/Div-agr/ricochet_rumble_game/assets/156349931/c37bdb41-1fc7-4218-92f9-7fc77db7f284) -semi ricochet
 
 PURPOSES OF EACH PIECES
+
 Tank blocks the bullet from going further.
 
-Titan is like a king of chess, inorder to win the game make sure the bullet hits the enemmy titan
+Titan is like a king of chess, inorder to win the game make sure the bullet hits the enemy titan
 
 Cannon shoots a bullet after each and every move. Remember the cannon does not shoot a bullet when the cannon is moved to a new grid. After the placement it is allowed to shoot in the next turn.
 
