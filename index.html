@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css"/>
+    <title>Ricochet Rumble</title>
+</head>
+<body>
+    <div id="timer">30</div>
+
+    <div id="root"></div>
+
+    <div id="menu" class="hidden">
+        <h1>Game Paused</h1>
+        <button id="resumeButton">Resume</button>
+        <button onclick="window.location.href='.'">Restart</button>
+    </div>
+
+    <button id="reflect" class="rotate">Rotate</button>
+
+    <div class="displayTurn" id="turn">white's Turn</div>
+    
+    <p class="displayTurn">Press esc to Pause</p>
+        
+
+    <audio id="audio">
+        <source src="./Assets/Sounds/shootSound.mp3">
+    </audio>
+
+    <div id="game-over-screen" class="hidden">
+        <h1>Game Over</h1>
+        <p class="winner"><span id="winner">0</span> Wins</p>
+        <button onclick="window.location.href='.'">Restart</button>
+    </div>
+        
+</body>
+<script type="module" src="index.js"></script>
+</html>
